@@ -35,7 +35,7 @@ startup
 
 init
 {
-    if (modules.First().BaseAddress.ToInt64() == 0x7FF716470000) {version = "1.16.3";} else {version = "1.17.0";}
+    if (settings["backpack"]) {version = "1.16.3";} else {version = "1.17.0";}
 
     vars.sOld = 0;
     vars.sNew = 0;
@@ -77,7 +77,7 @@ split
              vars.sNew == 27
              ) && (vars.sOld != vars.sNew)) {vars.sOld = vars.sNew; return true;} else {vars.sOld = vars.sNew;}
     }
-    if (old.scene == 2 && current.scene == 0) {return true;}
+    if (old.gameState == 2 && current.gameState == 0) {return true;}
 }
 
 isLoading
