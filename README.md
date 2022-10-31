@@ -11,3 +11,7 @@
 - In Livesplit, go to Edit Layout -> **+** -> Control -> Scriptable Autosplitter and add the .asl
 
 - Go to Compare Against and select Game Time to display load removal
+
+### Issues
+
+- If you are running 1.16, you must check the "Backpack route" setting before opening the game
