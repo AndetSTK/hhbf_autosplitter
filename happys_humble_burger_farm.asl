@@ -83,6 +83,6 @@ split
 isLoading
 {
 	return (current.loadScreen == 3 || current.loadScreen == 4 ||
-			current.bootScreen == 3 || current.bootScreen == 4 ||
-			current.miscLoadA == 4 || current.miscLoadB == 4);
+		current.bootScreen == 3 || current.bootScreen == 4 ||
+		current.miscLoadA == 4 || current.miscLoadB == 4);
 }
