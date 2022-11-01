@@ -7,10 +7,10 @@ state("Happy's Humble Burger Farm", "1.16.3")
     int loadScreen : "UnityPlayer.dll", 0x17DEA88, 0x1420, 0xFD48, 0x78, 0x780;         //3 or 4 if loading, 2 if not
     int bootScreen : "UnityPlayer.dll", 0x17DEA88, 0x1420, 0x8CD8, 0x78, 0x0;           //3 or 4 if loading, 2 if not
 
-	int miscLoadA : "UnityPlayer.dll", 0x1821B70, 0x24;                                 //4 if loading, 1 if not
-	int miscLoadB : "UnityPlayer.dll", 0x17DEA80, 0x0, 0xCA90, 0x78, 0x690;			    //4 if loading, 3 if not
+    int miscLoadA : "UnityPlayer.dll", 0x1821B70, 0x24;                                 //4 if loading, 1 if not
+    int miscLoadB : "UnityPlayer.dll", 0x17DEA80, 0x0, 0xCA90, 0x78, 0x690;	        //4 if loading, 3 if not
 
-	int gameState : "UnityPlayer.dll", 0x1783610;                     					//0 if cutscene, varies if not
+    int gameState : "UnityPlayer.dll", 0x1783610;                     			/0 if cutscene, varies if not
 }
 
 state("Happy's Humble Burger Farm", "1.17.0")
@@ -22,10 +22,10 @@ state("Happy's Humble Burger Farm", "1.17.0")
     int loadScreen : "UnityPlayer.dll", 0x17DEA88, 0x1420, 0xBF8, 0x78, 0xA0;           //3 or 4 if loading, 2 if not
     int bootScreen : "UnityPlayer.dll", 0x17DEA88, 0x1420, 0x3E28, 0x78, 0xA0;          //3 or 4 if loading, 2 if not
 
-	int miscLoadA : "UnityPlayer.dll", 0x1821B70, 0x24;                                 //4 if loading, 1 if not
-	int miscLoadB : "UnityPlayer.dll", 0x17DEA80, 0x0, 0xCA90, 0x78, 0x690;			    //4 if loading, 3 if not
+    int miscLoadA : "UnityPlayer.dll", 0x1821B70, 0x24;                                 //4 if loading, 1 if not
+    int miscLoadB : "UnityPlayer.dll", 0x17DEA80, 0x0, 0xCA90, 0x78, 0x690;		//4 if loading, 3 if not
 
-	int gameState : "UnityPlayer.dll", 0x1783610;                     					//0 if cutscene, varies if not
+    int gameState : "UnityPlayer.dll", 0x1783610;                     		        //0 if cutscene, varies if not
 }
 
 startup
